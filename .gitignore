@@ -1,0 +1,61 @@
+# ==============================
+# 1. 隐私与配置文件 (⚠️ 极其重要)
+# ==============================
+.env
+config.json
+config.yaml
+config.ini
+cookies.txt
+
+# ==============================
+# 2. 爬取生成的数据与媒体文件
+# ==============================
+*.xlsx
+*.csv
+downloads/
+media/
+data/
+output/
+
+# ==============================
+# 3. 操作系统与编辑器缓存
+# ==============================
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# ==============================
+# 4. Python 与 Node.js 基础缓存 (你原有的保留)
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+node_modules/
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+MANIFEST
+*.manifest
+*.spec
+.cache
+*.log
+local_settings.py
+db.sqlite3
+__pypackages__/
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
