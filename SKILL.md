@@ -2,7 +2,7 @@
 name: xhs-spider
 version: 1.0.0
 acceptLicenseTerms: true
-description: 小红书数据采集专家。能自主化获取博主基本信息、下载小红书无水印图文视频，并提取笔记评论导出为 Excel 数据表。
+description: 小红书数据采集专家。能自主化获取博主基本信息、下载小红书无水印图文视频，并提取笔记评论导出为 Excel 数据表格。
 metadata:
   openclaw:
     requires:
