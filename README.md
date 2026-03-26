@@ -13,5 +13,11 @@
 3. 在 `.env` 文件中配置你的小红书 Cookie。
 4. 运行可视化界面：`streamlit run ui.py`。
 
+# 有环境了直接启动确保 streamlit 已经安装在这个虚拟环境里
+source venv/bin/activate
+pip install streamlit
+# 启动你的前端界面！
+streamlit run ui.py
+
 ## 🙏 鸣谢
 本项目的底层核心爬虫逻辑与逆向算法来源于原作者 [@cv-cat](https://github.com/cv-cat/Spider_XHS)，感谢其对开源社区的贡献！本仓库主要在此基础上增加了数据分析与可视化交互层。
